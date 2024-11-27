@@ -67,7 +67,7 @@ use fo flex box and grids in relation with js
 ## Author
 
 - Website - [chukwuma Chukwudubem ](https://github.com/Derx101/frontend-mentor-projects.git)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Drex101)
+- Frontend Mentor - [@Derx101](https://www.frontendmentor.io/profile/Derx101)
 
 
 

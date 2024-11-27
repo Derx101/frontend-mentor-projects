@@ -26,6 +26,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: (https://github.com/Derx101/frontend-mentor-projects.git)
+- live url : (https://derx101.github.io/frontend-mentor-projects/recipie%20page/)
 
 ## My process
 
@@ -66,7 +67,7 @@ use fo flex box and grids in relation with js
 
 ## Author
 
-- Website - [chukwuma Chukwudubem ](https://github.com/Derx101/frontend-mentor-projects.git)
+- Website - [Recipe ](https://derx101.github.io/frontend-mentor-projects/recipie%20page/)
 - Frontend Mentor - [@Derx101](https://www.frontendmentor.io/profile/Derx101)
 
 

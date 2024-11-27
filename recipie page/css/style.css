@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+:root {
+    --primarycolor: #f0edd2;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #afafaf;
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+ol,
+li,
+td{
+    font-family: "san sherrif", Outfit;
+    font-weight: 50;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: "Young Serif", Outfit;
+    font-weight: 100;
+}
+h1 {
+    font-size: 40px;
+padding-top: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 100;
+    color: #7b2f2f;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 100;
+    color: #a53051;
+}
+
+h4 {
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 16px;
+}
+p.nutri{
+    margin: 20px 0;
+}
+.maincontainer{
+    background: var(--primarycolor);
+    padding: 100px 400px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: var(--mainWhite);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 70px 30px 70px;
+    width: 700px;
+    border-radius: 25px;
+}
+.main img{
+    height: 250px;
+    width: 650px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+ol li span{
+    font-weight: 700;
+}
+.Preparation ul li span{
+    font-weight: 700;
+}
+.Preparation{
+    background-color: var(--primarycolor);
+    padding: 20px 50px;
+    line-height: 2;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.ingredients{
+    line-height: 2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.Instructions{
+    line-height: 2;
+    margin: 20px 0;
+}
+.Nutrition{
+    line-height: 2;
+    margin: 20px 0;
+}
+table{
+    border-spacing: 25px;
+    width: 100%;
+    border-collapse: collapse;
+}
+table .two{
+    padding-left: 200px;
+    color: #7b2f2f;
+    font-weight: 800;
+}
+tr{
+    border-bottom: 2px solid #222;
+    line-height: 4;
+}
+@media screen and (min-width: 375px){
+.maincontainer {
+background: var(--primarycolor);
+padding: 100px 400px;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow-y: hidden;
+}
+}
